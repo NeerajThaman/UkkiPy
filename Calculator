@@ -1,0 +1,30 @@
+# Hello World program in Python
+    
+print "Calculator\n"
+
+while True:
+    x=float(raw_input("enter x- "))
+    y=float(raw_input("enter y- "))
+    o=raw_input("select operator a/s/d/m- ")
+    
+    if o == 'a':
+        z=x+y
+    
+    elif o == 's':
+        z=x-y
+    
+    elif o == 'd':
+        z=x/y
+    
+    else:
+        z=x*y
+        
+    print  x, o, y, z
+    
+    count= raw_input("do you want to continue? y/n ")
+    if count=='y':
+        continue
+    else:
+        break
+        
+    
